@@ -45,6 +45,6 @@ GEMINI_API_KEY=your_api_key
 
 Never commit API keys or secrets to GitHub.
 
-## Status
+## link
 
-🚧 Under development
+https://wildverse-six.vercel.app/
