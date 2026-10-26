@@ -1,16 +1,50 @@
-# React + Vite
+# Wildverse 🐾
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive virtual wildlife museum for exploring animals and learning about nature.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🐘 **Explore Creatures** — Browse animals by category.
+- 🔬 **Learn About Wildlife** — Discover scientific names and animal information.
+- 🤖 **Wildverse AI** — Ask questions about animals, biology, and nature.
+- 💬 **AI Chat History** — Continue or revisit conversations.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React + Vite
+- CSS
+- Supabase
+- Node.js + Express
+- Google Gemini API
 
-## Expanding the Oxlint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```bash
+# Install frontend dependencies
+npm install
+
+# Start the frontend
+npm run dev
+```
+
+For the AI Explorer, configure the Gemini API key in `server/.env`, then start the backend separately:
+
+```bash
+cd server
+npm install
+npm start
+```
+
+## Environment Variables
+
+Create `server/.env` and add:
+
+```env
+GEMINI_API_KEY=your_api_key
+```
+
+Never commit API keys or secrets to GitHub.
+
+## Status
+
+🚧 Under development
