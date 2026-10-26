@@ -1,0 +1,36 @@
+
+/* Wildverse uses the styles defined in index.css */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.hero {
+  text-align: left;
+}
+
+.hero h1 {
+  line-height: 1.03;
+}
+
+button {
+  cursor: pointer;
+}
+.ask-ai-button {
+  margin-top: 10px;
+  padding: 7px 0;
+  border: 0;
+  border-bottom: 1px solid #9ba98c;
+  background: transparent;
+  color: #526a48;
+  font-size: 11px;
+  text-align: left;
+}
+
+.ask-ai-button:hover {
+  color: #263a2c;
+}
